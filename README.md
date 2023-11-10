@@ -6,8 +6,8 @@ Welcome to my GitHub repository where I've compiled efficient solutions for the 
 I've also created an accompanying YouTube playlist where I discuss the logic and implementation details of these solutions. 📺 Check it out to gain a deeper understanding of the problems and their solutions!
 
 ## Connect with Me 🌐
-[Twitter](https://twitter.com/Priyansh_31Dec)
-[LinkedIn](https://www.linkedin.com/in/priyansh-agarwal/)
+- [Twitter](https://twitter.com/Priyansh_31Dec)
+- [LinkedIn](https://www.linkedin.com/in/priyansh-agarwal/)
 
 ## Acknowledgments 🙌
 A big thank you to the CSES Problem Set for providing a fantastic platform and ! 🌟
