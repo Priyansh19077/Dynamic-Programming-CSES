@@ -1,0 +1,11 @@
+*.o
+*.out
+*.exe
+*.so
+*.dll
+*-x
+*
+!*.*
+!*/
+*.DS_Store
+*.txt
