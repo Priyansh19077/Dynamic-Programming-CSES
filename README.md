@@ -1,4 +1,4 @@
-# Dynamic Programming Solutions for CSES Problem Set 🚀
+# Solutions for CSES Problem Set [DP Section]🚀
 
 Welcome to my GitHub repository where I've compiled efficient solutions for the Dynamic Programming section of the CSES Problem Set!
 
