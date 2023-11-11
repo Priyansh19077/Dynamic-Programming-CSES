@@ -27,6 +27,8 @@ int main(){
     
     for(int i = 1; i <= n; i++){
         vector<int> curr(x + 1);
+        // dp[i][j] = curr[j]
+        // dp[i - 1][j] = prev[j]
         for(int j = 0; j <= x; j++){
             // compute dp[i][j] here
             int w = weight[i - 1];
@@ -35,9 +37,10 @@ int main(){
             // two choices
             //  - pick up ith element
             //  - skip ith element
-            int pick = (j >= w ? prev[j - w] + value : 0);
-            int skip = prev[j];
+            int pick = (j >= w ? prev[j - w] + value : 0); // dp[i-1][j-w]
+            int skip = prev[j]; // dp[i - 1][j]
             // transition
+            // dp[i][j]
             curr[j] = max(skip, pick); 
         }
         prev = curr;

@@ -18,15 +18,17 @@ int main(){
     }
     
     vector<vector<int>> dp(n + 1, vector<int>(x + 1, 0));
-    // dp[i][j] = max value that can be attained from i elements,
+    // dp[i][j] = max value that can be attained from first i elements,
     // such that j weight is allowed to be used
     
     // base case
     // dp[0][k] = 0 for every k because we cannot add any more value
     // if 0 elements are left
     
+    // dp[i][w] -> dp[i - 1][w], dp[i - 1][w - some value]
+    
     for(int i = 1; i <= n; i++){
-        for(int j = 0; j <= x; j++){
+        for(int j = x; j >= 0; j--){
             // compute dp[i][j] here
             int w = weight[i - 1];
             int value = val[i - 1];
