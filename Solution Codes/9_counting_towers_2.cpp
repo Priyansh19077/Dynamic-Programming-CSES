@@ -28,4 +28,5 @@ int main(){
         cin >> n;
         cout << (dp[n-1][0] + dp[n-1][1]) % MOD << endl;
     }
+    // time complexity: O(n + t)
 }
