@@ -11,11 +11,11 @@ int main(){
     dp[0][1] = 1;
     
     // dp[i][0] = number of ways to fill from 0th row till ith row
-    // such that the ith row contains 2 vertical blocks
+    // such that the ith row contains 1 horizontal block
     
     
     // dp[i][1] = number of ways to fill from 0th row till ith row
-    // such that the ith row contains 1 horizontal block
+    // such that the ith row contains 2 vertical blocks
     
     for(int i = 1; i < 1e6; i++){
         dp[i][0] = (2LL * dp[i-1][0] + dp[i-1][1]) % MOD;
